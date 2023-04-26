@@ -1,0 +1,175 @@
+.oxo-logo-header{
+    display: inline-block;
+    width: 40%;
+}
+.header-info-section{
+    display: inline-block;
+    width: 60%;
+}
+.call-header{
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+}
+.email-header{
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+}
+.whatsapp-log{
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+.btn-header{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.header-section{
+    margin-left: 15%;
+    margin-right: 15%;
+    /*border: 1px solid black;*/
+}
+.navbar-setting{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.cards-predefined{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.call-btn-header{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.call-text-header{
+    background-color: white;
+    font-size: 18px;
+}
+.whatsapp-logo-header{
+    width: 40px;
+    border-radius: 10px;
+}
+.header-btn{
+    color: white;
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:4px;
+}
+.float-right-header{
+    border: 1px solid black;
+    float: right;
+}
+.navbar-brand{
+    padding-right: 30px;
+
+}
+.nav-item{
+    font-weight: bold;
+    padding-right: 30px;
+}
+.main-banner{
+    background-image: url(../images/frountend/banner-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    background-size: 100% auto;
+
+}
+.txt-main-banner{
+    padding-left: 12%;
+    padding-top: 5%;
+}
+.partners-logo{
+    margin-top: 0%;
+    background-color: #ecf0f3;
+    padding-left: 3%;
+    padding-right: 8%;
+}
+
+/*partner slide show*/
+.imgslide {
+    margin-left: 15%;
+    margin-right: 15%;
+    background: url(../images/frountend/partnerslogo.png);
+    width: 70%;
+    height: 6vh;
+    animation: slideshow 10s linear infinite;
+}
+
+@keyframes slideshow {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -100px;
+    }
+}
+.para-container2{
+    line-height: 120%;
+    margin-bottom: 3%;
+}
+.card{
+    border: none;
+}
+.pre-cards-text{
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .header-section{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .oxo-logo-header{
+        display: inline-block;
+        width: 30%;
+    }
+    .header-info-section{
+        display: inline-block;
+        width: 70%;
+    }
+    .call-header{
+        display: inline-block;
+        width: 28%;
+        vertical-align: middle;
+    }
+    .email-header{
+        display: inline-block;
+        width: 41%;
+        vertical-align: middle;
+    }
+    .whatsapp-log{
+        display: inline-block;
+        width: 7%;
+        vertical-align: middle;
+
+    }
+    .btn-header{
+        display: inline-block;
+        width: 20%;
+        vertical-align: middle;
+    }
+
+}

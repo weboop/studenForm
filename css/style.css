@@ -1,0 +1,51 @@
+.navbar{
+    font-size: 25px;
+    padding-left: 2%;
+}
+.navbar-brand{
+    font-size: 25px;
+
+}
+.nav-item{
+    margin-left: 8%;
+}
+.lable-products{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.product-add-form{
+    margin-top: 7%;
+    padding: 3%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.your-account-img{
+    border-radius: 100%;
+    border: 2px solid greenyellow;
+    width: 20%;
+    padding: 3px;
+}
+.your-account{
+    margin: 4%;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2%;
+    width: 50%;
+    background-color: seashell;
+}
+.labe-your-account{
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 4%;
+}
+.form-control{
+    font-size: 20px;
+    padding: 2%;
+    padding-left: 5%;
+
+}
+
+
+/* Show it is fixed to the top */
