@@ -1,0 +1,446 @@
+body{
+  background-color: #dfdede;
+}
+.top-nav-bar{
+  background-color: #3d3c3c;
+  height: fit-content
+  ;
+}
+.amazone-white-logo{
+  display: inline-block;
+  /* margin: 1%; */
+  padding-top: -5px;
+  width: 8%;
+}
+
+.amazone-white-image{
+  width: 100%;
+}
+
+.location-icon{
+  width: 12px;
+}
+.top-bar-delivery{
+  font-size: 13px;
+  color: white;
+  display: inline-block;
+  width: 5%;
+  padding-top: 4px;
+  margin-left: 10px;
+  
+
+}
+
+.search-section-top{
+  display: inline-block;
+  width: 60%;
+   margin-left: 10px;
+   margin-bottom: 20px;
+  
+}
+.dropdown-all{
+  display: inline-block;
+  width: 5%;
+  margin-top: -10px;
+}
+.all-btn{
+  padding: 8px;
+}
+.search-section{
+  display: inline-block;
+  width: 89%;
+  margin-left: -3px;
+}
+.search-input-top{
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 10px;
+}
+.top-input-serch-btn{
+  display: inline-block;
+  width: 5%;
+  margin-left: -2px;
+}
+.searc-top-setting{
+  background-color: rgb(255, 255, 98);
+   border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px ;
+}
+.countre-flag{
+  width: 25px;
+}
+.countre-selection{
+  display: inline-block;
+  
+  margin-top: -10px;
+}
+.countre-flag-setting{
+  padding: 6px;
+}
+
+.add-to-cart{
+  float: right;
+    width:  1.7%;
+    margin-right: 2%;
+    margin-top: 1%;
+    
+  }
+.sign-in-top-bar{
+  float: right;
+  margin-right: 1%;
+  margin-top: 1%;
+  width: 6%;
+
+
+}
+.return-top-bar{
+  float: right;
+  margin-top: 1%;
+  margin-right: 1%;
+  width: 5%;
+}
+.sign-in-top{
+  color: white;
+  border: none;
+}
+.hidden-search-bar{
+  background-color: black;
+  display: none;
+  margin-bottom: 0.6%;
+  
+}
+.hidden-search{
+  display: inline-block;
+  width: 89.5%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.hidden-search-btn{
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  width: 10%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nav-btns{
+  font-size: 1rem;
+
+}
+.nav-btn-set{
+  background-color: transparent;
+  color: white;
+  border: none;
+
+  
+}
+.main-container{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+.nav-link{
+    font-size: 15px;
+}
+.amazone-logo{
+   width: 100px;
+}
+
+.bar-content{
+    /* border: 1px solid black; */
+    margin-left: 1%;
+    display: inline-block;
+}
+.select-address{
+    font-size: 17px;
+    /* padding-left: 30px; */
+    padding-top: 7px;
+}
+.login-logo{
+    width: 50px;
+    padding-left: 20px;
+}
+.container-2{
+    background-color: rgb(36, 28, 28);
+    font-size: 35px;
+    margin-top: -10px;
+    margin-bottom: -25px;
+    color: white;
+    /* height: 3.9vh; */
+}
+.shop-deal{
+    padding-left: 55%;
+}
+
+.shop-now-btn{
+    width: 100%;
+}
+.three-horizental-bar{
+    font-size: 30px;
+}
+
+
+
+
+/* 2nd nav bar  */
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #352828; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-top: 67px;
+  }
+  .sidebar-text{
+     font-size: 15px;
+  }
+  .language-logo{
+    width: 20px;
+  }
+
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+ .cards{
+  margin-left: 5%;
+  margin-right: 5%;
+ } 
+.card-section{
+  position: relative;
+  margin-top: -230px;
+  padding: 1%;
+  background-color: white;
+  display: inline-block;
+  width: 22.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.cards-heading{
+  font-size: 15px;
+  font-weight: bold;
+}
+.slide-image-services{
+  display: inline-block;
+  width: 16%;
+ }
+ .sliding-services{
+     width: 70%;
+ }
+
+.services-slide{
+  padding: 1%;
+  margin: 2%;
+  background-color: white;
+}
+  .sliding-para-txt{
+     font-size: 15px;
+  }
+  .book{
+    display: inline-block;
+    width: 12%;
+    padding: 1%;
+  }
+  .books-scrool{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .books-scrool-section{
+    background-color: white;
+    padding: 2%;
+  }
+  @media screen and (max-width: 1266px) {
+    .top-bar-delivery, .search-section-top, .countre-selection{
+      display: none;
+    }
+    .top-nav-bar{
+      padding-top: 1%;
+      
+    }
+    .search-section{
+      display: inline-block;
+      width: 90%;
+      margin-left: -3px;
+    }
+    .amazone-white-logo{
+      width: 15%;
+    }
+    .add-to-cart{
+        margin-top: -0.4%;
+        width:  4%;
+        
+      }
+    .sign-in-top-bar{
+
+      width: 10%;
+    
+    
+    }
+    .return-top-bar{
+
+      width: 10%;
+    }
+    .hidden-search-bar{
+      display: block;
+      
+    }
+    .nav-btn-set{
+      display: none;
+    }
+
+  }
+  @media screen and (max-width: 1024px) {
+    .card-section{
+      margin-top: -120px;
+      width: 47%;
+
+    }
+    .card-section-2{
+      margin-top: 25px;
+    }
+  }
+  @media screen and (max-width: 870px) {
+    .hidden-search{
+      width: 70%;  
+    }
+    .hidden-search-btn{
+      width: 10%;
+
+    }
+    
+  }
+
+
+  @media screen and (max-width: 845px) {
+
+    .add-to-cart{
+      margin-top: -0.4%;
+      width:  4%;
+      
+    }
+  .sign-in-top-bar{
+    margin-top: -2px;
+    width: 15%;
+  
+  
+  }
+  .return-top-bar{
+    display: none;
+  }
+  .hidden-search{
+    width: 65%;  
+  }
+  .hidden-search-btn{
+    width: 10%;
+
+  }
+  .card-section{
+    margin-top: -90px;
+
+  }
+  .card-section-2{
+    margin-top: 30px;
+  }
+  .sliding-services{
+    width: 40%;
+}
+.sliding-para-txt{
+  font-size: 12px;
+}
+  }
+  @media screen and (max-width: 540px) {
+    .amazone-white-logo{
+      width: 25%;
+    }
+    .add-to-cart{
+      margin-top: -0.4%;
+      width:  4%;
+      
+    }
+  .sign-in-top-bar{
+    margin-top: -2px;
+    width: 25%;
+  }
+  .hidden-search{
+    width: 70%;  
+  }
+  .hidden-search-btn{
+    width: 21%;
+
+  }
+  .hidden-search-bar{
+   font-size: 10px;    
+  }
+  .card-section{
+    margin-top: -60px;
+
+  }
+  .card-section-2{
+    margin-top: 20px;
+  }
+  .cards{
+    margin-left: 1%;
+    margin-right: 1%;
+   }
+   .cards-heading{
+    font-size: 10px;
+   }
+   .sliding-para-txt{
+    font-size: 10px;
+ }
+
+  }
+  @media screen and (max-width: 540px) {
+    .sliding-para-txt{
+      font-size: 7px;
+   }
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+
+  }
